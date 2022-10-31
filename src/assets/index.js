@@ -13,6 +13,9 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import email from "./email.svg";
+import location from "./location.svg";
+import phoneCall from "./phone-call.svg";
 
 export {
   logo,
@@ -30,4 +33,7 @@ export {
   instagram,
   linkedin,
   twitter,
+  email,
+  location,
+  phoneCall
 };
