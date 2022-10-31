@@ -4,7 +4,6 @@ import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
-  const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -14,7 +13,7 @@ const Navbar = () => {
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
-          <NavLink to={nav.path} navKey={nav.id} title={nav.title} index={index} />
+          <NavLink to={nav.path} title={nav.title} index={index} key={index} />
         ))}
       </ul>
 
@@ -29,7 +28,7 @@ const Navbar = () => {
         <div className={`${!toggle ? "hidden" : "flex"} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
-              <NavLink to={nav.path} key={nav.id} title={nav.title} index={index} />
+              <NavLink to={nav.path} title={nav.title} index={index} key={index} />
             ))}
           </ul>
         </div>
@@ -38,17 +37,17 @@ const Navbar = () => {
   );
 };
 
-function NavLink({ to, navKey, title, index, ...props }) {
+function NavLink({ to, title, index, ...props }) {
   const resolvedPath = useResolvedPath(to);
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
   return (
     <li
-      key={navKey}
+      key={index}
       className={`font-poppins font-medium cursor-pointer text-[15px] uppercase ${isActive ? "text-primaryGreen" : "text-black"
         } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
     >
-      <Link to={to}>{title}</Link>
+      <Link to={to} key={index}>{title}</Link>
     </li>
   );
 }
