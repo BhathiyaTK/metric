@@ -12,7 +12,7 @@ const Contact = () => {
                             <input type="text" placeholder="FULL NAME" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
                             <input type="email" placeholder="EMAIL" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
                             <textarea rows="4" placeholder="MESSAGE" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen"></textarea>
-                            <button type="submit" class="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue">submit</button>
+                            <button type="submit" className="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue">submit</button>
                         </form>
                     </div>
                     <div className="font-poppins mt-20">
@@ -22,7 +22,9 @@ const Contact = () => {
                         </div>
                         <div className="flex items-center space-x-3 ml-1 mb-2.5">
                             <img src={email} alt="email" className="w-5" />
-                            <span className="text-primaryBlue hover:underline underline-offset-4"><a href="mailto:info@metricproducts.com">info@metricproducts.com</a></span>
+                            <span className="text-primaryBlue hover:underline underline-offset-4">
+                                <a href="mailto:info@metricproducts.com">info@metricproducts.com</a>
+                            </span>
                         </div>
                         <div className="flex items-center space-x-3 ml-1">
                             <img src={phoneCall} alt="phone-call" className="w-5" />
