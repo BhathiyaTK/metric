@@ -4,6 +4,12 @@ import PrivateLabel from "./PrivateLabel";
 import About from "./About";
 import Contact from "./Contact";
 import BottomBar from "./BottomBar";
+import Products from "./Products";
+import ComfortFitPets from "./products/ComfortFitPets";
+import CupsAndUnderware from "./products/CupsAndUnderware";
+import DriftToSleep from "./products/DriftToSleep";
+import BraMoldedCup from "./products/BraMoldedCup";
+import BraUnderwires from "./products/BraUnderwires";
 
 export {
   Navbar,
@@ -11,5 +17,11 @@ export {
   PrivateLabel,
   About,
   Contact,
-  BottomBar
+  BottomBar,
+  Products,
+  ComfortFitPets,
+  CupsAndUnderware,
+  DriftToSleep,
+  BraMoldedCup,
+  BraUnderwires
 };

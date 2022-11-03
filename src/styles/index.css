@@ -7,3 +7,7 @@
 .custom-container {
     width: 80% !important;
 }
+
+.custom-line-height {
+    line-height: .25rem !important;
+}

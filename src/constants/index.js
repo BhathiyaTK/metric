@@ -26,21 +26,154 @@ export const navLinks = [
   },
 ];
 
-export const homeCards = [
+export const productCards = [
   {
     name: "comfort fit pets",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
+    path: "/comfort-fit-pets",
+    categories: [
+      {
+        title: "dog harnesses",
+        types: [
+          {
+            title: "colder weather harness",
+            amazonLink: "https://www.amazon.com",
+            imageOne: "https://via.placeholder.com/400x400",
+            imageTwo: "https://via.placeholder.com/500x200",
+            imageThree: "https://via.placeholder.com/510x510"
+          },
+          {
+            title: "warmer weather harness",
+            amazonLink: "https://www.amazon.com",
+            imageOne: "https://via.placeholder.com/400x400",
+            imageTwo: "https://via.placeholder.com/500x200",
+            imageThree: "https://via.placeholder.com/510x510"
+          },
+          {
+            title: "inside plush harness",
+            amazonLink: "https://www.amazon.com",
+            imageOne: "https://via.placeholder.com/400x400",
+            imageTwo: "https://via.placeholder.com/500x200",
+            imageThree: "https://via.placeholder.com/510x510"
+          }
+        ]
+      },
+      {
+        title: "dog collars",
+        types: [
+          {
+            title: "soft padded dog collar",
+            amazonLink: "https://www.amazon.com",
+            imageOne: "https://via.placeholder.com/400x400",
+            imageTwo: "https://via.placeholder.com/500x200",
+            imageThree: "https://via.placeholder.com/510x510"
+          },
+          {
+            title: "ultra soft padded dog collar",
+            amazonLink: "https://www.amazon.com",
+            imageOne: "https://via.placeholder.com/400x400",
+            imageTwo: "https://via.placeholder.com/500x200",
+            imageThree: "https://via.placeholder.com/510x600"
+          }
+        ]
+      }
+    ]
   },
   {
     name: "drift to sleep",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
+    path: "/drift-to-sleep",
+    categories: [
+      {
+        title: "sleep masks",
+        types: [
+          {
+            amazonLink: "https://www.amazon.com",
+            imageOne: "https://via.placeholder.com/400x400",
+            imageTwo: "https://via.placeholder.com/500x200",
+            imageThree: "https://via.placeholder.com/400x400"
+          }
+        ]
+      },
+      {
+        title: "ear plugs",
+        types: [
+          {
+            imageOne: "https://via.placeholder.com/400x400",
+            subTypes: [
+              {
+                image: "https://via.placeholder.com/200x200",
+                amazonLink: "https://www.amazon.com",
+                pieces: ["20 Pairs", "40 Pairs", "60 Pairs"]
+              },
+              {
+                image: "https://via.placeholder.com/200x200",
+                amazonLink: "https://www.amazon.com",
+                pieces: []
+              },
+              {
+                image: "https://via.placeholder.com/200x200",
+                amazonLink: "https://www.amazon.com",
+                pieces: ["20 Pairs", "50 Pairs", "60 Pairs"]
+              },
+              {
+                image: "https://via.placeholder.com/200x200",
+                amazonLink: "https://www.amazon.com",
+                pieces: ["60 Pairs of Bottle Pack"]
+              }
+            ]
+          }
+        ]
+      },
+    ]
   },
   {
-    name: "cups and underware for intimate apparel",
+    name: "cups and underwire for intimate apparel",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
+    path: "/cups-and-underware",
+    categories: [
+      {
+        title: "bra molded cup",
+        path: "/bra-molded-cup",
+        image: "https://via.placeholder.com/400x500",
+        types: [
+          {
+            title: "push-up cups",
+            images: ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+          },
+          {
+            title: "strapless cups",
+            images: ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+          },
+          {
+            title: "bando shapes cups",
+            images: ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+          },
+          {
+            title: "triangular cups",
+            images: ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+          },
+        ]
+      },
+      {
+        title: "bra underwires",
+        path: "/bra-underwires",
+        image: "https://via.placeholder.com/400x500",
+        types: [
+          {
+            title: "nylon coated steel wire",
+            images: ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+          },
+          {
+            title: "galvernized steel wire",
+            images: ["https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200", "https://via.placeholder.com/400x200"]
+          }
+        ]
+      }
+    ]
   }
 ];
 
