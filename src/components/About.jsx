@@ -15,7 +15,7 @@ const About = () => {
                             {
                                 section.hasMedia ?
                                     <>
-                                        <div className="mt-14 mb-20 w-3/4 mx-auto rounded-fiveXl overflow-hidden">
+                                        <div className="mt-14 mb-20 w-3/4 mx-auto rounded-5xl overflow-hidden">
                                             <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-1 w-full">
                                                 {
                                                     section.media.map((img, index) => (
