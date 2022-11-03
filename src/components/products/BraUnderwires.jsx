@@ -21,7 +21,7 @@ const ComfortFitPets = () => {
             <h1 className="text-4xl font-poppins font-bold capitalize text-primaryGreen">cups and underwires for<br />intimate apparel</h1>
             <div className="w-full my-4 border border-t-primaryBlue"></div>
             <h1 className="text-5xl font-poppins font-bold uppercase text-center text-primaryBlue mt-14">bra underwires</h1>
-            <div className="flex flex-row justify-around space-x-10">
+            <div className="flex flex-row justify-center space-x-10">
                {
                   productCards[2].categories[1].types.map((type, index) => (
                      <div key={index}>

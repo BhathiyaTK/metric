@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, NavLink, useMatch, useResolvedPath } from 'react-router-dom';
-import { close, logo, menu } from "../assets";
-import { navLinks } from "../constants";
+import { close, logo, menu } from "../../assets";
+import { navLinks } from "../../constants";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
