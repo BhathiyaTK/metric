@@ -15,7 +15,7 @@ const Home = () => {
                                 <img src={card.imageTwo} alt="image-two" />
                             </div>
                         </div>
-                        <Link to={'/products' + card.path}>
+                        <Link to={'products/' + card.path}>
                             <h2 className="uppercase text-primaryGreen hover:text-primaryBlue transition-all font-poppins font-semibold xs:text-md sm:text-lg md:text-2xl lg:text-3xl mt-14">
                                 {card.name}
                             </h2>

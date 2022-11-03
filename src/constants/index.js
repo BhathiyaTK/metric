@@ -1,27 +1,27 @@
 export const navLinks = [
   {
     id: "home",
-    path: "/",
+    path: "",
     title: "Home",
   },
   {
     id: "products",
-    path: "/products",
+    path: "products",
     title: "Products",
   },
   {
     id: "privateLabel",
-    path: "/privateLabel",
+    path: "privateLabel",
     title: "Private Label",
   },
   {
     id: "about",
-    path: "/about",
+    path: "about",
     title: "About Us",
   },
   {
     id: "contact",
-    path: "/contact",
+    path: "contact",
     title: "Contact Us",
   },
 ];
@@ -31,7 +31,7 @@ export const productCards = [
     name: "comfort fit pets",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
-    path: "/comfort-fit-pets",
+    path: "comfort-fit-pets",
     categories: [
       {
         title: "dog harnesses",
@@ -84,7 +84,7 @@ export const productCards = [
     name: "drift to sleep",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
-    path: "/drift-to-sleep",
+    path: "drift-to-sleep",
     categories: [
       {
         title: "sleep masks",
@@ -133,11 +133,11 @@ export const productCards = [
     name: "cups and underwire for intimate apparel",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
-    path: "/cups-and-underware",
+    path: "cups-and-underware",
     categories: [
       {
         title: "bra molded cup",
-        path: "/bra-molded-cup",
+        path: "bra-molded-cup",
         image: "https://via.placeholder.com/400x500",
         types: [
           {
@@ -160,7 +160,7 @@ export const productCards = [
       },
       {
         title: "bra underwires",
-        path: "/bra-underwires",
+        path: "bra-underwires",
         image: "https://via.placeholder.com/400x500",
         types: [
           {

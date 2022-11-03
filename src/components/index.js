@@ -5,8 +5,10 @@ import About from "./About";
 import Contact from "./Contact";
 import BottomBar from "./BottomBar";
 import Products from "./Products";
+import ProductHome from "./products/ProductHome";
 import ComfortFitPets from "./products/ComfortFitPets";
 import CupsAndUnderware from "./products/CupsAndUnderware";
+import CupsAndUnderwareHome from "./products/CupsAndUnderwareHome";
 import DriftToSleep from "./products/DriftToSleep";
 import BraMoldedCup from "./products/BraMoldedCup";
 import BraUnderwires from "./products/BraUnderwires";
@@ -19,8 +21,10 @@ export {
   Contact,
   BottomBar,
   Products,
+  ProductHome,
   ComfortFitPets,
   CupsAndUnderware,
+  CupsAndUnderwareHome,
   DriftToSleep,
   BraMoldedCup,
   BraUnderwires
