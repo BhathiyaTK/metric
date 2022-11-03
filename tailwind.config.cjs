@@ -14,8 +14,14 @@ module.exports = {
         poppins: ["Poppins", "sans-serif"],
       },
       borderRadius: {
-        fiveXl: "60px",
-        sixXl: "90px",
+        "4xl": "40px",
+        "5xl": "60px",
+        "6xl": "80px",
+        "7xl": "100px",
+      },
+      lineHeight: {
+        "leading-1": "0.25rem",
+        "leading-2": "0.5rem"
       }
     },
     screens: {
