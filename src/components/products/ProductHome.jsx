@@ -14,7 +14,7 @@ function renderCardName(param) {
 
 const ProductHome = () => {
    return (
-      <div className="custom-container mx-auto h-screen">
+      <div className="custom-container mx-auto h-full">
          <div className="flex flex-row items-start justify-center space-x-16 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4/5">
             {productCards.map((card, index) => (
                <div className="w-1/3 text-center" key={index}>

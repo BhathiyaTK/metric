@@ -2,7 +2,7 @@ import { location, email, phoneCall } from "./../assets";
 
 const Contact = () => {
     return (
-        <div className="custom-container mx-auto pt-20">
+        <div className="custom-container mx-auto py-20">
             <div className="grid sm:grid-col-1 md:grid-cols-2 gap-20 place-items-center">
                 <div>
                     <h1 className="text-7xl font-poppins font-bold uppercase text-primaryGreen mb-5">contact us</h1>

@@ -8,7 +8,7 @@ const CupsAndUnderwareHome = () => {
          <div className="custom-container mx-auto pt-20">
             <h1 className="text-4xl font-poppins font-bold capitalize text-primaryGreen">cups and underwires for<br />intimate apparel</h1>
             <div className="w-full my-4 border border-t-primaryBlue"></div>
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-row justify-around">
                {
                   productCards[2].categories.map((product, index) => (
                      <div key={index}>
