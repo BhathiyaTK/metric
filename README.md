@@ -1,5 +1,7 @@
 # Metric - React.js, Vite & Tailwind CSS web app
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0820d273-ebf6-4af5-81a7-8f9a2f82328f/deploy-status)](https://app.netlify.com/sites/metric-dev/deploys)
+
 This project is developed using;
 
 - [React.js](https://reactjs.org/)
