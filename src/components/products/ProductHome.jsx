@@ -19,10 +19,10 @@ const ProductHome = () => {
             {productCards.map((card, index) => (
                <div className="w-1/3 text-center" key={index}>
                   <div className="flex flex-row space-x-7 items-center">
-                     <div className="w-1/2 rounded-3xl overflow-hidden">
+                     <div className="w-1/2 rounded-4xl overflow-hidden green-shadow">
                         <img src={card.imageOne} alt="image-one" />
                      </div>
-                     <div className="w-1/2 rounded-3xl overflow-hidden">
+                     <div className="w-1/2 rounded-4xl overflow-hidden green-shadow">
                         <img src={card.imageTwo} alt="image-two" />
                      </div>
                   </div>

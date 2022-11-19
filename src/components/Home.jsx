@@ -8,15 +8,15 @@ const Home = () => {
                 {productCards.map((card, index) => (
                     <div className="w-1/3 text-center" key={index}>
                         <div className="flex flex-row space-x-7 items-center">
-                            <div className="w-1/2 rounded-3xl overflow-hidden">
+                            <div className="w-1/2 rounded-4xl overflow-hidden green-shadow">
                                 <img src={card.imageOne} alt="image-one" />
                             </div>
-                            <div className="w-1/2 rounded-3xl overflow-hidden">
+                            <div className="w-1/2 rounded-4xl overflow-hidden green-shadow">
                                 <img src={card.imageTwo} alt="image-two" />
                             </div>
                         </div>
                         <Link to={'products/' + card.path}>
-                            <h2 className="uppercase text-primaryGreen hover:text-primaryBlue transition-all font-poppins font-semibold xs:text-md sm:text-lg md:text-2xl lg:text-3xl mt-14">
+                            <h2 className="uppercase text-primaryGreen hover:text-primaryBlue transition-all font-poppins font-semibold xs:text-md sm:text-lg md:text-2xl lg:text-3xl mt-20">
                                 {card.name}
                             </h2>
                         </Link>

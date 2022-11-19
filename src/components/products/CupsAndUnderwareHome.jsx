@@ -14,7 +14,7 @@ const CupsAndUnderwareHome = () => {
                      <div key={index}>
                         <div className="mt-10">
                            <h1 className="text-5xl font-poppins font-bold uppercase text-center text-primaryBlue mb-10">{product.title}</h1>
-                           <div className="relative w-4/5 mx-auto rounded-6xl overflow-hidden">
+                           <div className="relative w-4/5 mx-auto rounded-6xl overflow-hidden green-shadow">
                               <img src={product.image} alt={`image-${index}`} className="w-full" />
                               <span className="absolute bottom-5 left-1/2 -translate-x-1/2 px-3 py-1 rounded-2xl text-center bg-primaryGreen hover:bg-primaryBlue transition-all">
                                  <Link to={product.path} className="font-poppins font-semibold text-white uppercase">See all products</Link>
