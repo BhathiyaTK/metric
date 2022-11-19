@@ -5,17 +5,17 @@ const ComfortFitPets = () => {
    return (
       <>
          <div className="custom-container mx-auto pt-20">
-            <h1 className="text-4xl font-poppins font-bold capitalize text-primaryGreen">comfort fit pets</h1>
+            <h1 className="text-4xl font-poppins font-bold capitalize text-primaryGreen text-center md:text-left">comfort fit pets</h1>
             <div className="w-full my-4 border border-t-primaryBlue"></div>
             {
                productCards[0].categories.map((product, indexOne) => (
                   <div key={indexOne}>
                      <div className="mt-10">
-                        <h1 className="text-5xl font-poppins font-bold uppercase text-center text-primaryBlue mb-10">{product.title}</h1>
-                        <div className="flex flex-row justify-center space-x-10">
+                        <h1 className="text-4xl md:text-5xl font-poppins font-bold uppercase text-center text-primaryBlue mb-10">{product.title}</h1>
+                        <div className="block md:flex md:flex-row justify-center md:space-x-10">
                            {
                               product.types.map((type, indexTwo) => (
-                                 <div key={indexTwo}>
+                                 <div key={indexTwo} className="mb-20 md:mb-0">
                                     <div>
                                        <img src={type.imageOne} alt={'imageOneOf' + indexTwo} className="w-full" />
                                     </div>

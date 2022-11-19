@@ -29,10 +29,10 @@ const DriftToSleep = () => {
                                     }
                                     {
                                        type.subTypes ?
-                                          <div className="flex flex-row space-x-7">
+                                          <div className="block md:flex md:flex-row md:space-x-7">
                                              {
                                                 type.subTypes.map((sType, indexThree) => (
-                                                   <div key={indexThree}>
+                                                   <div key={indexThree} className="mb-10 md:mb-0">
                                                       <img src={sType.image} alt={'image' + indexThree} className="w-full" />
                                                       <div className="my-10 text-center">
                                                          <a href={sType.amazonLink} target="_blank" className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-2 bg-primaryGreen hover:bg-primaryBlue transition-all">order on amazon</a>

@@ -6,14 +6,14 @@ const CupsAndUnderwareHome = () => {
    return (
       <>
          <div className="custom-container mx-auto pt-20">
-            <h1 className="text-4xl font-poppins font-bold capitalize text-primaryGreen">cups and underwires for<br />intimate apparel</h1>
+            <h1 className="text-4xl font-poppins font-bold capitalize text-primaryGreen text-center md:text-left">cups and underwires for<br />intimate apparel</h1>
             <div className="w-full my-4 border border-t-primaryBlue"></div>
-            <div className="flex flex-row justify-around">
+            <div className="block md:flex md:flex-row justify-around">
                {
                   productCards[2].categories.map((product, index) => (
                      <div key={index}>
-                        <div className="mt-10">
-                           <h1 className="text-5xl font-poppins font-bold uppercase text-center text-primaryBlue mb-10">{product.title}</h1>
+                        <div className="mt-10 mb-32 md:mb-0">
+                           <h1 className="text-4xl md:text-5xl font-poppins font-bold uppercase text-center text-primaryBlue mb-10">{product.title}</h1>
                            <div className="relative w-4/5 mx-auto rounded-6xl overflow-hidden green-shadow">
                               <img src={product.image} alt={`image-${index}`} className="w-full" />
                               <span className="absolute bottom-5 left-1/2 -translate-x-1/2 px-3 py-1 rounded-2xl text-center bg-primaryGreen hover:bg-primaryBlue transition-all">

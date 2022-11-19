@@ -5,8 +5,8 @@ const Contact = () => {
         <div className="custom-container mx-auto py-20">
             <div className="grid sm:grid-col-1 md:grid-cols-2 gap-20 place-items-center">
                 <div>
-                    <h1 className="text-7xl font-poppins font-bold uppercase text-primaryGreen mb-5">contact us</h1>
-                    <p className="text-5xl font-poppins font-semibold uppercase text-primaryBlue">feel free to get in touch with us</p>
+                    <h1 className="text-5xl md:text-7xl font-poppins font-bold uppercase text-primaryGreen mb-5">contact us</h1>
+                    <p className="text-3xl md:text-5xl font-poppins font-semibold uppercase text-primaryBlue">feel free to get in touch with us</p>
                     <div className="font-poppins pt-5 pb-10">
                         <form>
                             <input type="text" placeholder="FULL NAME" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
