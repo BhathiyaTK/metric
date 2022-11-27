@@ -8,6 +8,20 @@ export const navLinks = [
     id: "products",
     path: "products",
     title: "Products",
+    subMenu: [
+      {
+        title: "Comfort Fit",
+        path: "products/comfort-fit-pets"
+      },
+      {
+        title: "Drift to Sleep",
+        path: "products/drift-to-sleep"
+      },
+      {
+        title: "Cups and Underwire for Intimate Apparel",
+        path: "products/cups-and-underware"
+      }
+    ]
   },
   {
     id: "privateLabel",
@@ -40,22 +54,19 @@ export const productCards = [
             title: "colder weather harness",
             amazonLink: "https://www.amazon.com",
             imageOne: "https://via.placeholder.com/400x400",
-            imageTwo: "https://via.placeholder.com/500x200",
-            imageThree: "https://via.placeholder.com/510x510"
+            imageTwo: "https://via.placeholder.com/510x510"
           },
           {
             title: "warmer weather harness",
             amazonLink: "https://www.amazon.com",
             imageOne: "https://via.placeholder.com/400x400",
-            imageTwo: "https://via.placeholder.com/500x200",
-            imageThree: "https://via.placeholder.com/510x510"
+            imageTwo: "https://via.placeholder.com/510x510"
           },
           {
             title: "inside plush harness",
             amazonLink: "https://www.amazon.com",
             imageOne: "https://via.placeholder.com/400x400",
-            imageTwo: "https://via.placeholder.com/500x200",
-            imageThree: "https://via.placeholder.com/510x510"
+            imageTwo: "https://via.placeholder.com/510x510"
           }
         ]
       },
@@ -106,7 +117,20 @@ export const productCards = [
               {
                 image: "https://via.placeholder.com/200x200",
                 amazonLink: "https://www.amazon.com",
-                pieces: ["20 Pairs", "40 Pairs", "60 Pairs"]
+                pieces: [
+                  {
+                    pair: "20 Pair",
+                    url: "https://www.amazon.com"
+                  },
+                  {
+                    pair: "40 Pair",
+                    url: "https://www.amazon.com"
+                  },
+                  {
+                    pair: "60 Pair",
+                    url: "https://www.amazon.com"
+                  }
+                ]
               },
               {
                 image: "https://via.placeholder.com/200x200",
@@ -116,12 +140,30 @@ export const productCards = [
               {
                 image: "https://via.placeholder.com/200x200",
                 amazonLink: "https://www.amazon.com",
-                pieces: ["20 Pairs", "50 Pairs", "60 Pairs"]
+                pieces: [
+                  {
+                    pair: "20 Pair",
+                    url: "https://www.amazon.com"
+                  },
+                  {
+                    pair: "50 Pair",
+                    url: "https://www.amazon.com"
+                  },
+                  {
+                    pair: "60 Pair",
+                    url: "https://www.amazon.com"
+                  }
+                ]
               },
               {
                 image: "https://via.placeholder.com/200x200",
                 amazonLink: "https://www.amazon.com",
-                pieces: ["60 Pairs of Bottle Pack"]
+                pieces: [
+                  {
+                    pair: "60 Pairs of Bottle Pack",
+                    url: "https://www.amazon.com"
+                  }
+                ]
               }
             ]
           }
@@ -232,7 +274,7 @@ export const aboutUsSections = [
   },
   {
     title: "our community",
-    description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo.",
+    description: "An important part of our mission at Metric Products has always been to be a positive force in the community where we are located and where many of our employees live.   Since 2002 We have actively engaged in projects that are meaningful and beneficial to the region we are located Polgasowita Together, as a company and a team, we identify where to focus our energies and we all participate. The following photos are a representation of some of the activities we have engaged in over the years.",
     hasMedia: true,
     media: [
       {

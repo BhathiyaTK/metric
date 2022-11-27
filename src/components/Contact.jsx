@@ -30,8 +30,6 @@ const Contact = () => {
                             <img src={phoneCall} alt="phone-call" className="w-5" />
                             <span>
                                 <a href="tel:+13108159000" className="text-primaryBlue hover:underline underline-offset-4">1.310.815.9000</a>
-                                &nbsp;/&nbsp;
-                                <a href="tel:+13108380241" className="text-primaryBlue hover:underline underline-offset-4">1.310.838.0241</a>
                             </span>
                         </div>
                     </div>
