@@ -40,8 +40,8 @@ const DriftToSleep = () => {
                                                       <div className="flex flex-row space-x-2 justify-center items-center">
                                                          {
                                                             sType.pieces.map((piece, indexFour) => (
-                                                               <a href={piece.url}>
-                                                                  <span className="bg-primaryBlue rounded-lg px-2 py-1 text-xs font-poppins text-white" key={indexFour}>{piece.pair}</span>
+                                                               <a href={piece.url} key={indexFour}>
+                                                                  <span className="bg-primaryBlue rounded-lg px-2 py-1 text-xs font-poppins text-white">{piece.pair}</span>
                                                                </a>
                                                             ))
                                                          }

@@ -3,11 +3,13 @@ import { NavLink } from 'react-router-dom';
 import { close, logo, menu } from "../../assets";
 import { navLinks } from "../../constants";
 import * as rdd from 'react-device-detect';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+  const [dropdown, setDropDown] = useState(false);
   let linkStyleClasses = `font-poppins cursor-pointer uppercase ${rdd.isMobile ? 'font-semibold text-[30px] mb-16 last:mb-0' : 'font-medium text-[14px] mr-10 last:mr-0'} `;
-  console.log(rdd);
 
   return (
     <nav className="w-full flex py-8 md:py-14 justify-between items-center navbar px-7 md:px-20">
@@ -26,7 +28,26 @@ const Navbar = () => {
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
-          <NavLink to={nav.path} end={nav.path !== 'products' ? true : false} className={({ isActive }) => isActive ? `${linkStyleClasses}` + 'text-primaryGreen bg-white rounded-2xl px-5 py-0.5' : `${linkStyleClasses}` + 'text-black'} key={index} >{nav.title}</NavLink>
+          <li className='px-5' key={index}>
+            <NavLink to={nav.path} end={nav.path !== 'products' ? true : false} id={nav.id} className={({ isActive }) => isActive ? `${linkStyleClasses}` + 'text-primaryGreen bg-white rounded-2xl px-5 py-0.5' : `${linkStyleClasses}` + 'text-black'} onClick={() => nav.subMenu ? setDropDown(!dropdown) : setDropDown(false)}>
+              {nav.title}
+              {
+                nav.subMenu ? <FontAwesomeIcon className="ml-2" icon={dropdown ? faChevronUp : faChevronDown} /> : null
+              }
+            </NavLink>
+            {
+              nav.subMenu && dropdown ?
+                <ul className="products-menu absolute shadow-xl bg-white rounded-xl p-4 mt-2 z-50">
+                  {
+                    nav.subMenu.map((menu, menuIndex) => (
+                      <li className="mb-3 last:mb-0 hover:text-primaryGreen w-full hover:cursor-pointer" key={menuIndex}>
+                        <NavLink to={menu.path} end={nav.path !== 'products' ? true : false} className="font-poppins w-full" onClick={() => setDropDown(!dropdown)} >{menu.title}</NavLink>
+                      </li>
+                    ))
+                  }
+                </ul> : null
+            }
+          </li>
           // <NavigationLink to={nav.path} title={nav.title} index={index} key={index} />
         ))}
       </ul>
@@ -42,7 +63,9 @@ const Navbar = () => {
         <div className={`${!toggle ? "hidden" : "flex"} px-3 py-6 bg-white/80 shadow-lg absolute top-20 right-0 my-5 w-full h-[89%] min-w-[140px] rounded-xl z-40 sidebar`}>
           <ul className="list-none flex justify-center items-center flex-1 flex-col">
             {navLinks.map((nav, index) => (
-              <NavLink to={nav.path} end={nav.path !== 'products' ? true : false} className={({ isActive }) => isActive ? `${linkStyleClasses}` + 'text-white bg-primaryGreen rounded-4xl px-10 py-0.5' : `${linkStyleClasses}` + 'text-black'} key={index} onClick={() => setToggle(!toggle)}>{nav.title}</NavLink>
+              <NavLink to={nav.path} end={nav.path !== 'products' ? true : false} className={({ isActive }) => isActive ? `${linkStyleClasses}` + 'text-white bg-primaryGreen rounded-4xl px-10 py-0.5' : `${linkStyleClasses}` + 'text-black'} key={index} onClick={() => setToggle(!toggle)}>
+                {nav.title}
+              </NavLink>
             ))}
           </ul>
         </div>
@@ -52,3 +75,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
