@@ -1,4 +1,4 @@
-import { BottomBar } from '../';
+import { BottomBar, Modal } from '../';
 import { productCards } from '../../constants';
 
 const ComfortFitPets = () => {
@@ -22,8 +22,12 @@ const ComfortFitPets = () => {
                                     <h2 className="uppercase text-2xl font-semibold font-poppins text-primaryGreen text-center my-5 px-10">{type.title}</h2>
                                     <div className="mt-8 mb-20 text-center">
                                        <a href={type.amazonLink} target="_blank" className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-2 bg-primaryGreen hover:bg-primaryBlue transition-all">order on amazon</a>
+                                       <br /><br />
+                                       <span className="capitalize cursor-pointer font-poppins text-primaryBlue hover:underline underline-offset-4">
+                                          <a href="https://www.amazon.com" target="_blank">View fit instructions</a>
+                                       </span>
                                     </div>
-                                    <div className="w-full rounded-lg border overflow-hidden">
+                                    <div className="w-full rounded-lg border overflow-hidden bg-white">
                                        <div className="px-3 py-1.5 bg-primaryBlue uppercase text-center font-poppins font-medium text-white text-lg">fit instructions</div>
                                        <div>
                                           <img src={type.imageTwo} alt={'imageTwoOf' + indexTwo} />
@@ -40,6 +44,7 @@ const ComfortFitPets = () => {
                   </div>
                ))
             }
+            {/* <Modal /> */}
          </div>
          <BottomBar />
       </>

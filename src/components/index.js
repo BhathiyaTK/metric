@@ -12,6 +12,7 @@ import CupsAndUnderwareHome from "./products/CupsAndUnderwareHome";
 import DriftToSleep from "./products/DriftToSleep";
 import BraMoldedCup from "./products/BraMoldedCup";
 import BraUnderwires from "./products/BraUnderwires";
+import Modal from "./Modal";
 
 export {
   Navbar,
@@ -27,5 +28,6 @@ export {
   CupsAndUnderwareHome,
   DriftToSleep,
   BraMoldedCup,
-  BraUnderwires
+  BraUnderwires,
+  Modal
 };
