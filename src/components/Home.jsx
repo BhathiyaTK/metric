@@ -16,10 +16,11 @@ const Home = () => {
                             </div>
                         </div>
                         <Link to={'products/' + card.path}>
-                            <h2 className="uppercase text-primaryGreen hover:text-primaryBlue transition-all font-poppins font-semibold text-lg md:text-2xl lg:text-3xl mt-10 md:mt-20">
+                            <h2 className="uppercase text-primaryGreen hover:text-primaryBlue transition-all font-poppins font-semibold text-lg md:text-2xl lg:text-4xl mt-10 md:mt-20 mb-2">
                                 {card.name}
                             </h2>
                         </Link>
+                        <span className="uppercase font-poppins font-medium text-lg text-gray-600">{card.subName}</span>
                     </div>
                 ))}
             </div>

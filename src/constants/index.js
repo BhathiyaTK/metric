@@ -43,6 +43,7 @@ export const navLinks = [
 export const productCards = [
   {
     name: "comfort fit pets",
+    subName: "pet products",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
     path: "comfort-fit-pets",
@@ -93,6 +94,7 @@ export const productCards = [
   },
   {
     name: "drift to sleep",
+    subName: "sleep mask and earplugs",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
     path: "drift-to-sleep",
@@ -172,7 +174,8 @@ export const productCards = [
     ]
   },
   {
-    name: "cups and underwire for intimate apparel",
+    name: "intimate apparel",
+    subName: "cups and underwires",
     imageOne: "https://via.placeholder.com/300x400",
     imageTwo: "https://via.placeholder.com/300x400",
     path: "cups-and-underware",
