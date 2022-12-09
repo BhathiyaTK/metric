@@ -1,5 +1,6 @@
 import { BottomBar, Modal } from '../';
 import { productCards } from '../../constants';
+import dogColor from '../../assets/img/dogColor.jpg';
 
 const ComfortFitPets = () => {
    return (
@@ -27,12 +28,11 @@ const ComfortFitPets = () => {
                                           <a href="https://www.amazon.com" target="_blank">View fit instructions</a>
                                        </span>
                                     </div>
-                                    {/* <div className="w-full rounded-lg border overflow-hidden bg-white">
-                                       <div className="px-3 py-1.5 bg-primaryBlue uppercase text-center font-poppins font-medium text-white text-lg">fit instructions</div>
+                                    <div className="w-full rounded-lg border overflow-hidden bg-white">
                                        <div>
-                                          <img src={type.imageTwo} alt={'imageTwoOf' + indexTwo} />
+                                          <img src={dogColor} alt={'imageThreeOf' + indexTwo} />
                                        </div>
-                                    </div> */}
+                                    </div>
                                  </div>
                               ))
                            }
