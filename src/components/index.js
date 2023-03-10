@@ -12,7 +12,7 @@ import FitInstructionsColder from "./products/FitInstructionsColder";
 import FitInstructionsWarmer from "./products/FitInstructionsWarmer";
 import FitInstructionsInsidePlush from "./products/FitInstructionsInsidePlush";
 import FitInstructionsSoftPadded from "./products/FitInstructionsSoftPadded";
-import FitInstructionsUltraSoftPadded from "./Products/FitInstructionsUltraSoftPadded";
+import FitInstructionsUltraSoftPadded from "./products/FitInstructionsUltraSoftPadded";
 import CupsAndUnderware from "./products/CupsAndUnderware";
 import CupsAndUnderwareHome from "./products/CupsAndUnderwareHome";
 import DriftToSleep from "./products/DriftToSleep";
