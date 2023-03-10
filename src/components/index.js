@@ -7,6 +7,12 @@ import BottomBar from "./common/BottomBar";
 import Products from "./Products";
 import ProductHome from "./products/ProductHome";
 import ComfortFitPets from "./products/ComfortFitPets";
+import ComfortFitPetsHome from "./products/ComfortFitPetsHome";
+import FitInstructionsColder from "./products/FitInstructionsColder";
+import FitInstructionsWarmer from "./products/FitInstructionsWarmer";
+import FitInstructionsInsidePlush from "./products/FitInstructionsInsidePlush";
+import FitInstructionsSoftPadded from "./Products/FitInstructionsSoftPadded";
+import FitInstructionsUltraSoftPadded from "./Products/FitInstructionsUltraSoftPadded";
 import CupsAndUnderware from "./products/CupsAndUnderware";
 import CupsAndUnderwareHome from "./products/CupsAndUnderwareHome";
 import DriftToSleep from "./products/DriftToSleep";
@@ -24,10 +30,16 @@ export {
   Products,
   ProductHome,
   ComfortFitPets,
+  ComfortFitPetsHome,
+  FitInstructionsColder,
+  FitInstructionsWarmer,
+  FitInstructionsInsidePlush,
+  FitInstructionsSoftPadded,
+  FitInstructionsUltraSoftPadded,
   CupsAndUnderware,
   CupsAndUnderwareHome,
   DriftToSleep,
   BraMoldedCup,
   BraUnderwires,
-  Modal
+  Modal,
 };

@@ -17,9 +17,9 @@ const DriftToSleep = () => {
                               product.types.map((type, indexTwo) => (
                                  <div key={indexTwo}>
                                     <div className={`grid col-1 place-items-center ${type.amazonLink ? '' : 'mb-20'}`}>
-                                       {type.imageOne ? <img src={type.imageOne} alt={'imageOneOf' + indexTwo} className="mb-5" /> : null}
-                                       {type.imageTwo ? <img src={type.imageTwo} alt={'imageTwoOf' + indexTwo} className="mb-5" /> : null}
-                                       {type.imageThree ? <img src={type.imageThree} alt={'imageThreeOf' + indexTwo} className="mb-5" /> : null}
+                                       {type.imageOne ? <img src={type.imageOne} alt={'imageOneOf' + indexTwo} className="mb-5 sm:w-full md:w-1/2 border-2 rounded-lg" /> : null}
+                                       {type.imageTwo ? <img src={type.imageTwo} alt={'imageTwoOf' + indexTwo} className="mb-5 sm:w-full md:w-1/2 border-2 rounded-lg" /> : null}
+                                       {type.imageThree ? <img src={type.imageThree} alt={'imageThreeOf' + indexTwo} className="mb-5 sm:w-full md:w-1/2 border-2 rounded-lg" /> : null}
                                     </div>
                                     {
                                        type.amazonLink ?
@@ -29,11 +29,11 @@ const DriftToSleep = () => {
                                     }
                                     {
                                        type.subTypes ?
-                                          <div className="block md:flex md:flex-row md:space-x-7">
+                                          <div className="block md:flex md:flex-row md:space-x-10">
                                              {
                                                 type.subTypes.map((sType, indexThree) => (
                                                    <div key={indexThree} className="mb-10 md:mb-0">
-                                                      <img src={sType.image} alt={'image' + indexThree} className="w-full" />
+                                                      <img src={sType.image} alt={'image' + indexThree} className="w-full border rounded-lg" />
                                                       <div className="my-10 text-center">
                                                          <a href={sType.amazonLink} target="_blank" className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-2 bg-primaryGreen hover:bg-primaryBlue transition-all">order on amazon</a>
                                                       </div>
