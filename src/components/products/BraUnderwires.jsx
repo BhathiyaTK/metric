@@ -26,7 +26,9 @@ const ComfortFitPets = () => {
                   productCards[2].categories[1].types.map((type, index) => (
                      <div key={index}>
                         <div className="mt-10">
-                           <h1 className="text-3xl font-poppins font-semibold uppercase text-center text-primaryGreen mb-10">{renderCardName(type.title)}</h1>
+                           <h1 className="text-3xl font-poppins font-semibold uppercase text-center text-primaryGreen mb-10">
+                              {productCards[2].categories[1].title === 'bra underwires' ? type.title : renderCardName(type.title)}
+                           </h1>
                            {
                               type.images.map((img, imgIndex) => (
                                  <div key={imgIndex} className="w-full mx-auto rounded-tr-4xl rounded-bl-4xl overflow-hidden mb-10">
