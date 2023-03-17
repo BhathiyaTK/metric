@@ -1,4 +1,5 @@
 import { location, email, phoneCall } from "./../assets";
+import contactImg from './../assets/img/contact-us.webp';
 
 const Contact = () => {
     return (
@@ -35,7 +36,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div>
-                    <img src="https://via.placeholder.com/800x800" />
+                    <img src={contactImg} />
                 </div>
             </div>
         </div>

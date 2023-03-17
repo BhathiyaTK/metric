@@ -63,7 +63,8 @@ export const productCards = [
               "https://i.ibb.co/nmzm6M1/1-6.jpg",
               "https://i.ibb.co/kDfx1P2/1-5.jpg",
               "https://i.ibb.co/8cLR0r4/1-4.jpg",
-              "https://i.ibb.co/VQp3h2v/1-2.jpg"
+              "https://i.ibb.co/VQp3h2v/1-2.jpg",
+              "https://i.ibb.co/bJF6jzT/1-3.jpg"
             ],
             fitInstructionsLink: "colder-weather-harness/fit-instructions",
             fitInstructions: [
@@ -189,7 +190,20 @@ export const productCards = [
               {
                 image: "https://i.ibb.co/H4fXc13/3.jpg",
                 amazonLink: "https://www.amazon.com",
-                pieces: []
+                pieces: [
+                  {
+                    pair: "20 Pair",
+                    url: "https://www.amazon.com"
+                  },
+                  {
+                    pair: "50 Pair",
+                    url: "https://www.amazon.com"
+                  },
+                  {
+                    pair: "100 Pair",
+                    url: "https://www.amazon.com"
+                  }
+                ]
               },
               {
                 image: "https://i.ibb.co/ySqbXRx/4.jpg",
@@ -261,11 +275,11 @@ export const productCards = [
         image: "https://i.ibb.co/v1tk3P5/main-image.jpg",
         types: [
           {
-            title: "nylon coated steel wire",
+            title: "galvernized steel wire",
             images: ["https://i.ibb.co/8XPxPkc/04.jpg", "https://i.ibb.co/3Y4w56X/05.jpg", "https://i.ibb.co/wNX4MbD/06.jpg"]
           },
           {
-            title: "galvernized steel wire",
+            title: "nylon coated steel wire",
             images: ["https://i.ibb.co/hd3YvKL/01.jpg", "https://i.ibb.co/q1Nf2yn/03.jpg", "https://i.ibb.co/NnTWSZY/09.jpg"]
           }
         ]

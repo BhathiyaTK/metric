@@ -15,8 +15,8 @@ const About = () => {
                             {
                                 section.hasMedia ?
                                     <>
-                                        <div className="mt-14 mb-20 w-full md:w-3/4 mx-auto rounded-5xl overflow-hidden">
-                                            <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-1 w-full">
+                                        <div className="mt-14 mb-20 w-full md:w-3/4 mx-auto overflow-hidden">
+                                            <div className="grid sm:grid-cols-1 md:grid-cols-2 sm:gap-3 lg:gap-10 w-full">
                                                 {
                                                     section.media.map((img, index) => (
                                                         <Media source={img.src} alt={img.id} key={index} />
@@ -44,7 +44,7 @@ function BlueBar({ isDisplay }) {
 
 function Media({ source, id }) {
     return (
-        <img src={source} alt={id} />
+        <img src={source} alt={id} className="sm:rounded lg:rounded-3xl border" />
     )
 }
 
