@@ -16,12 +16,14 @@ const CupsAndUnderwareHome = () => {
                            <h1 className="text-4xl md:text-5xl font-poppins font-bold uppercase text-center text-primaryBlue mb-10">{product.title}</h1>
                            <div className="relative w-4/5 mx-auto rounded-6xl overflow-hidden green-shadow">
                               <img src={product.image} alt={`image-${index}`} className="w-full" />
-                              <span className="absolute bottom-5 left-1/2 -translate-x-1/2 px-3 py-1 rounded-2xl text-center bg-primaryGreen hover:bg-primaryBlue transition-all">
-                                 <Link to={product.path} className="font-poppins font-semibold text-white uppercase">See all products</Link>
+                           </div>
+                           <div className="text-center my-14">
+                              <span className="text-center">
+                                 <Link to={product.path} className="px-10 py-5 rounded-4xl font-poppins font-semibold text-white uppercase bg-primaryBlue hover:bg-primaryGreen transition-all">See all products</Link>
                               </span>
                            </div>
                            <div className="mt-10 text-center">
-                              <a href="tel:1234567890" className="uppercase font-poppins font-semibold text-white bg-primaryBlue hover:bg-primaryGreen transition-all rounded-3xl px-5 py-2">contact us</a>
+                              <a href="tel:1234567890" className="uppercase font-poppins font-semibold text-white bg-primaryGreen hover:bg-primaryBlue transition-all rounded-3xl px-5 py-2">contact us</a>
                            </div>
                         </div>
                      </div>

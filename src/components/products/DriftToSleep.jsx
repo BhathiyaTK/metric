@@ -34,14 +34,14 @@ const DriftToSleep = () => {
                                                 type.subTypes.map((sType, indexThree) => (
                                                    <div key={indexThree} className="mb-10 md:mb-0">
                                                       <img src={sType.image} alt={'image' + indexThree} className="w-full border rounded-lg" />
-                                                      <div className="my-10 text-center">
-                                                         <a href={sType.amazonLink} target="_blank" className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-2 bg-primaryGreen hover:bg-primaryBlue transition-all">order on amazon</a>
+                                                      <div className="mt-10 mb-5 text-center font-bold uppercase">
+                                                         Order
                                                       </div>
-                                                      <div className="flex flex-row space-x-2 justify-center items-center">
+                                                      <div className="flex flex-row space-x-3 justify-center items-center">
                                                          {
                                                             sType.pieces.map((piece, indexFour) => (
                                                                <a href={piece.url} key={indexFour}>
-                                                                  <span className="bg-primaryBlue rounded-lg px-2 py-1 text-xs font-poppins text-white">{piece.pair}</span>
+                                                                  <span className="bg-primaryBlue hover:bg-primaryGreen rounded-lg px-2 py-1 text-md font-poppins text-white">{piece.pair}</span>
                                                                </a>
                                                             ))
                                                          }
