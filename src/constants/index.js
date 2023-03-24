@@ -170,14 +170,14 @@ export const productCards = [
             imageOne: "https://i.ibb.co/SvLchXV/1.webp",
             subTypes: [
               {
-                image: "https://i.ibb.co/Vg5tbyG/2.webp",
+                image: "https://i.ibb.co/n3L1rW8/4.webp",
                 pieces: [
                   {
                     pair: "20 Pair",
                     url: "https://www.amazon.com/MOLDEX-Sparkplugs-Plugs-Pairs-Earplugs/dp/B094D8C7MD/ref=sr_1_7?m=A1IWTMS4MUB9JY&marketplaceID=ATVPDKIKX0DER&qid=1674556487&s=merchant-items&sr=1-7"
                   },
                   {
-                    pair: "50 Pair",
+                    pair: "40 Pair",
                     url: "https://www.amazon.com/MOLDEX-Sparkplugs-Plugs-Pairs-Earplugs/dp/B01DJ4IER4?ref_=ast_sto_dp&th=1"
                   },
                   {
@@ -204,18 +204,18 @@ export const productCards = [
                 ]
               },
               {
-                image: "https://i.ibb.co/n3L1rW8/4.webp",
+                image: "https://i.ibb.co/Vg5tbyG/2.webp",
                 pieces: [
                   {
                     pair: "20 Pair",
                     url: "https://www.amazon.com/Moldex-Soft-Plugs-Pairs-Earplugs/dp/B00VTID4KK/ref=sr_1_3?m=A1IWTMS4MUB9JY&marketplaceID=ATVPDKIKX0DER&qid=1674556487&s=merchant-items&sr=1-3"
                   },
                   {
-                    pair: "40 Pair",
+                    pair: "50 Pair",
                     url: "https://www.amazon.com/Moldex-Soft-Plugs-Pairs-Earplugs/dp/B07BT9G1CT/ref=sr_1_2?m=A1IWTMS4MUB9JY&marketplaceID=ATVPDKIKX0DER&qid=1674556487&s=merchant-items&sr=1-2"
                   },
                   {
-                    pair: "50 Pair",
+                    pair: "60 Pair",
                     url: "https://www.amazon.com/Moldex-Plugs-Pairs-Earplugs-Better/dp/B097C3N132/ref=sr_1_6?m=A1IWTMS4MUB9JY&marketplaceID=ATVPDKIKX0DER&qid=1674556487&s=merchant-items&sr=1-6"
                   }
                 ]
