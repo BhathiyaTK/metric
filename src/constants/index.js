@@ -239,7 +239,7 @@ export const productCards = [
     name: "intimate apparel",
     subName: "cups and underwires",
     imageOne: "https://i.ibb.co/k3874Mw/5.webp",
-    imageTwo: "https://i.ibb.co/bXpgNyd/0009.webp",
+    imageTwo: "https://i.ibb.co/GRzmSrt/0009.webp",
     path: "cups-and-underware",
     categories: [
       {
@@ -322,19 +322,19 @@ export const aboutUsSections = [
     media: [
       {
         id: "facility1",
-        src: "https://i.ibb.co/0Cq9njH/0001.webp"
+        src: "https://i.ibb.co/qB0Mnyk/0001.webp"
       },
       {
         id: "facility2",
-        src: "https://i.ibb.co/GnJkBmf/0005.webp"
+        src: "https://i.ibb.co/6FNrfJq/0002.webp"
       },
       {
         id: "facility3",
-        src: "https://i.ibb.co/8BSQ4Pv/0006.webp"
+        src: "https://i.ibb.co/80fp6D8/0003.webp"
       },
       {
         id: "facility4",
-        src: "https://i.ibb.co/k8t47My/0007.webp"
+        src: "https://i.ibb.co/jbQH4fx/0004.webp"
       },
     ]
   },
@@ -368,19 +368,19 @@ export const aboutUsSections = [
     media: [
       {
         id: "comm1",
-        src: "https://i.ibb.co/z25cxfH/0005.webp"
+        src: "https://i.ibb.co/XWHKxgg/0001.webp"
       },
       {
         id: "comm2",
-        src: "https://i.ibb.co/XS4jPBy/0008.webp"
+        src: "https://i.ibb.co/Q9CSXGW/0003.webp"
       },
       {
         id: "comm3",
-        src: "https://i.ibb.co/2PnPV7w/0007.webp"
+        src: "https://i.ibb.co/ZTScKH1/0002.webp"
       },
       {
         id: "comm4",
-        src: "https://i.ibb.co/tQNV2ST/0006.webp"
+        src: "https://i.ibb.co/0DxbpmP/0004.webp"
       },
     ]
   },

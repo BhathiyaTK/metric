@@ -35,12 +35,12 @@ const DriftToSleep = () => {
                                                    <div key={indexThree} className="mb-10 md:mb-0">
                                                       <img src={sType.image} alt={'image' + indexThree} className="w-full border rounded-lg" />
                                                       <div className="mt-10 mb-5 text-center text-gray-600 font-bold uppercase">
-                                                         Order on Amazon as pairs
+                                                         Order on Amazon as
                                                       </div>
                                                       <div className="flex flex-row space-x-3 justify-center items-center">
                                                          {
                                                             sType.pieces.map((piece, indexFour) => (
-                                                               <a href={piece.url} key={indexFour}>
+                                                               <a href={piece.url} target="_blank" key={indexFour}>
                                                                   <span className="bg-primaryBlue hover:bg-primaryGreen rounded-lg px-2 py-1 text-md font-poppins text-white">{piece.pair}</span>
                                                                </a>
                                                             ))
