@@ -29,7 +29,7 @@ const Navbar = () => {
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li className='px-5' key={index}>
-            <NavLink to={nav.path} end={nav.path !== 'products' ? true : false} id={nav.id} className={({ isActive }) => isActive ? `${linkStyleClasses}` + 'text-primaryGreen bg-white rounded-2xl px-5 py-0.5' : `${linkStyleClasses}` + 'text-black'} onClick={() => nav.subMenu ? setDropDown(!dropdown) : setDropDown(false)}>
+            <NavLink to={nav.path} end={nav.path !== 'products' ? true : false} id={nav.id} className={({ isActive }) => isActive ? `${linkStyleClasses}` + 'text-linkBlack bg-white rounded-2xl px-5 py-0.5' : `${linkStyleClasses}` + 'text-black'} onClick={() => nav.subMenu ? setDropDown(!dropdown) : setDropDown(false)}>
               {nav.title}
               {
                 nav.subMenu ? <FontAwesomeIcon className="ml-2" icon={dropdown ? faChevronUp : faChevronDown} /> : null
