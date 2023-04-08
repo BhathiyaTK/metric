@@ -10,10 +10,10 @@ const Contact = () => {
                     <p className="text-3xl md:text-5xl font-poppins font-semibold uppercase text-primaryBlue">feel free to get in touch with us</p>
                     <div className="font-poppins pt-5 pb-10">
                         <form>
-                            <input name="fullname" type="text" placeholder="FULL NAME" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
-                            <input name="email" type="email" placeholder="EMAIL" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
-                            <textarea name="message" rows="4" placeholder="MESSAGE" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen"></textarea>
-                            <button type="submit" className="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue">submit</button>
+                            <input name="fullname" id="fullname" value="" type="text" placeholder="FULL NAME" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true" />
+                            <input name="email" id="email" value="" type="email" placeholder="EMAIL" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true" />
+                            <textarea name="message" id="message" value="" rows="4" placeholder="MESSAGE" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true"></textarea>
+                            <button type="submit" className="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue" value="Submit">submit</button>
                         </form>
                     </div>
                     <div className="font-poppins mt-20">
