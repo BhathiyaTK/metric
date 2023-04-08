@@ -10,8 +10,8 @@ const Contact = () => {
                     <p className="text-3xl md:text-5xl font-poppins font-semibold uppercase text-primaryBlue">feel free to get in touch with us</p>
                     <div className="font-poppins pt-5 pb-10">
                         <form>
-                            <input type="text" name="fullname" placeholder="FULL NAME" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
-                            <input type="email" name="email" placeholder="EMAIL" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
+                            <input name="fullname" type="text" placeholder="FULL NAME" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
+                            <input name="email" type="email" placeholder="EMAIL" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" />
                             <textarea name="message" rows="4" placeholder="MESSAGE" className="uppercase border rounded-3xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen"></textarea>
                             <button type="submit" className="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue">submit</button>
                         </form>
@@ -36,7 +36,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div>
-                    <img src={contactImg} />
+                    <img src={contactImg} alt="contact image" />
                 </div>
             </div>
         </div>
