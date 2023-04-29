@@ -31,7 +31,7 @@ const ProductHome = () => {
                      {renderCardName(card.name)}
                   </h2>
                   <Link to={card.path}>
-                     <button className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-1 bg-primaryGreen hover:bg-primaryBlue transition-all" aria-label="See All Products">
+                     <button className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-1 bg-primaryGreen hover:bg-primaryBlue transition-all" id="seeAllProductsButton" aria-label="See All Products">
                         <span className="text-sm">see all products</span>
                      </button>
                   </Link>
