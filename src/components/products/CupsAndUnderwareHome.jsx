@@ -23,7 +23,7 @@ const CupsAndUnderwareHome = () => {
                               </span>
                            </div>
                            <div className="mt-10 text-center">
-                              <a href="mailto:info@metricproducts.com" className="uppercase font-poppins font-semibold text-white bg-primaryGreen hover:bg-primaryBlue transition-all rounded-3xl px-5 py-2">contact us</a>
+                              <a href="mailto:info@metricproducts.com" className="uppercase font-poppins font-semibold text-white bg-primaryGreen hover:bg-primaryBlue transition-all rounded-3xl px-5 py-2" accessKey="cupAndUnderwareContact">contact us</a>
                            </div>
                         </div>
                      </div>

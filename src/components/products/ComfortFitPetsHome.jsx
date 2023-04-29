@@ -22,7 +22,7 @@ const ComfortFitPetsHome = () => {
                                     </div>
                                     <h2 className="uppercase text-2xl font-semibold font-poppins text-primaryGreen text-center my-5 px-10">{type.title}</h2>
                                     <div className="mt-8 mb-20 text-center">
-                                       <a href={type.amazonLink} target="_blank" className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-2 bg-primaryGreen hover:bg-primaryBlue transition-all">order on amazon</a>
+                                       <a href={type.amazonLink} target="_blank" className="font-poppins uppercase font-semibold text-white rounded-xl px-5 py-2 bg-primaryGreen hover:bg-primaryBlue transition-all" accessKey={type.amazonLink}>order on amazon</a>
                                        <br /><br />
                                        <Link to={type.fitInstructionsLink}>
                                           <span className="capitalize cursor-pointer font-poppins text-primaryBlue hover:underline underline-offset-4">
