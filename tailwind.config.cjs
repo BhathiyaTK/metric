@@ -9,7 +9,7 @@ module.exports = {
         primaryGreen: "#bbd92a",
         linkBlack: "#000",
         dimWhite: "rgba(255, 255, 255)",
-        dimDark: "rgba(0, 0, 0)",
+        dimDark: "rgb(0, 0, 0)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
