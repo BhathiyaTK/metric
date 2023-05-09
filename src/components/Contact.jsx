@@ -10,11 +10,11 @@ const Contact = () => {
                     <p className="text-3xl md:text-5xl font-poppins font-semibold uppercase text-primaryBlue">feel free to get in touch with us</p>
                     <div className="font-poppins pt-5 pb-10">
                         <form>
-                            <label for="fullname" className="font-semibold text-gray-500">Full Name</label>
+                            <label for="fullname" className="font-semibold text-white">Full Name</label>
                             <input name="fullname" id="fullname" value="" type="text" className="uppercase border rounded-xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true" aria-label="FullName" />
-                            <label for="email" className="font-semibold text-gray-500">Email</label>
+                            <label for="email" className="font-semibold text-white">Email</label>
                             <input name="email" id="email" value="" type="email" className="uppercase border rounded-xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true" aria-label="Email" />
-                            <label for="message" className="font-semibold text-gray-500">Message</label>
+                            <label for="message" className="font-semibold text-white">Message</label>
                             <textarea name="message" id="message" value="" rows="4" className="uppercase border rounded-xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true" aria-label="Message"></textarea>
                             <button type="submit" className="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue" value="Submit" id="contactUsFormSubmitButton" aria-label="ContactUsFormSubmit">submit</button>
                         </form>

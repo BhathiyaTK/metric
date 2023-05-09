@@ -21,7 +21,7 @@ const Home = () => {
                                     {card.name}
                                 </h2>
                             </Link>
-                            <span className="uppercase font-poppins font-medium text-lg text-gray-300">{card.subName}</span>
+                            <span className="uppercase font-poppins font-medium text-lg text-white">{card.subName}</span>
                         </div>
                     </div>
                 ))}

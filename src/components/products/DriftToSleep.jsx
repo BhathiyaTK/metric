@@ -34,7 +34,7 @@ const DriftToSleep = () => {
                                                 type.subTypes.map((sType, indexThree) => (
                                                    <div key={indexThree} className="mb-10 md:mb-0">
                                                       <img src={sType.image} alt={'image' + indexThree} className="w-full border rounded-lg" />
-                                                      <div className="mt-10 mb-5 text-center text-gray-600 font-bold uppercase">
+                                                      <div className="mt-10 mb-5 text-center text-white font-bold uppercase">
                                                          Order on Amazon as
                                                       </div>
                                                       <div className="flex flex-row space-x-3 justify-center items-center">
