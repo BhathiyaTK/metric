@@ -8,10 +8,10 @@ const Home = () => {
                 {productCards.map((card, index) => (
                     <div role="presentation" className="w-full md:w-1/3 text-center mb-16 md:mb-0" key={index}>
                         <div role="presentation" className="flex flex-row space-x-7 items-center">
-                            <div role="img" aria-label={'Image ' + index + '-one'} className="w-1/2 rounded-4xl overflow-hidden green-shadow">
+                            <div role="img" aria-label={'Image ' + index + ' one'} className="w-1/2 rounded-4xl overflow-hidden green-shadow">
                                 <img src={card.imageOne} alt="image-one" />
                             </div>
-                            <div role="img" aria-label={'Image ' + index + '-two'} className="w-1/2 rounded-4xl overflow-hidden green-shadow">
+                            <div role="img" aria-label={'Image ' + index + ' two'} className="w-1/2 rounded-4xl overflow-hidden green-shadow">
                                 <img src={card.imageTwo} alt="image-two" />
                             </div>
                         </div>

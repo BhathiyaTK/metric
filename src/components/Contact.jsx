@@ -9,7 +9,7 @@ const Contact = () => {
                     <h1 className="text-5xl md:text-7xl font-poppins font-bold uppercase text-primaryGreen mb-5">contact us</h1>
                     <p className="text-3xl md:text-5xl font-poppins font-semibold uppercase text-primaryBlue">feel free to get in touch with us</p>
                     <div className="font-poppins pt-5 pb-10">
-                        <form aria-label="Contact us form">
+                        <form aria-label="Contact us">
                             <label for="fullname" className="uppercase font-semibold">Full Name</label>
                             <input name="fullname" id="fullname" aria-labelledby="fullname" aria-label="fullName" type="text" className="border rounded-xl w-full px-5 py-2 mb-3 font-semibold bg-primaryGreen" required="true" />
                             <label for="contactEmail" className="uppercase font-semibold">Email</label>
