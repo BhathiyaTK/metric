@@ -16,7 +16,7 @@ const Contact = () => {
                             <input name="email" id="email" value="" type="email" className="uppercase border rounded-xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true" aria-label="Email" />
                             <label for="message" className="font-semibold text-white">Message</label>
                             <textarea name="message" id="message" value="" rows="4" className="uppercase border rounded-xl w-full px-5 py-2 mb-3 font-semibold text-white bg-primaryGreen" required="true" aria-label="Message"></textarea>
-                            <button type="submit" className="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue" value="Submit" id="contactUsFormSubmitButton" aria-label="ContactUsFormSubmit">submit</button>
+                            <button type="submit" title="Contact us form submit" aria-label="Contact Us Form Submit" aria-labelledby="Contact us form submit" className="float-right px-10 py-2 rounded-3xl text-white text-lg uppercase bg-primaryBlue" value="Submit" id="contactUsFormSubmitButton">submit</button>
                         </form>
                     </div>
                     <div className="font-poppins mt-20">
@@ -27,13 +27,13 @@ const Contact = () => {
                         <div className="flex items-center space-x-3 ml-1 mb-2.5">
                             <img src={email} alt="email" className="w-5" />
                             <span className="text-primaryBlue hover:underline underline-offset-4">
-                                <a href="mailto:info@metricproducts.com" accessKey="contact Us Email">info@metricproducts.com</a>
+                                <a href="mailto:info@metricproducts.com" title="Contact us email" accessKey="contact Us Email">info@metricproducts.com</a>
                             </span>
                         </div>
                         <div className="flex items-center space-x-3 ml-1">
                             <img src={phoneCall} alt="phone-call" className="w-5" />
                             <span>
-                                <a href="tel:+13108159000" className="text-primaryBlue hover:underline underline-offset-4" accessKey="contactUsPhone">1.310.815.9000</a>
+                                <a href="tel:+13108159000" title="Contact us phone number" className="text-primaryBlue hover:underline underline-offset-4" accessKey="contactUsPhone">1.310.815.9000</a>
                             </span>
                         </div>
                     </div>
